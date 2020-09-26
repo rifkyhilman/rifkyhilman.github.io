@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{84:function(e){e.exports=JSON.parse('{"version":"current","label":"Next","isLast":true,"docsSidebars":{},"permalinkToSidebar":{}}')}}]);
