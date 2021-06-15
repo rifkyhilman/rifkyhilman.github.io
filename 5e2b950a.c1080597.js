@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{73:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"tugas-pertemuan-1","name":"tugas_pertemuan1","count":1,"permalink":"/blog/tags/tugas-pertemuan-1"}')}}]);
