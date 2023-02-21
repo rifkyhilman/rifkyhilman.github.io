@@ -1,4 +1,4 @@
-#Hi! im Muhamad Rifki Hilman
+#Hi! :wave: im Muhamad Rifki Hilman
 
 **Github Statistic**
 
