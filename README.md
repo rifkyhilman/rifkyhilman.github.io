@@ -1,10 +1,26 @@
-#Hi! :wave: im Muhamad Rifki Hilman
+# Aplikasi Kalkulator
+Aplikasi kalkulator sederhana ini dibuat dengan `HTML`, `CSS` dan `Javascript`.
 
-**Github Statistic**
+Struktur folder
+```bash
+📦calculator
+ ┣ 📂assets
+ ┃ ┣ 📜kalkulator.js
+ ┃ ┗ 📜style.css
+ ┗ 📜index.html
+ ```
 
-<p align="left">
-<a href="https://github.com/dimasmds">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dimasmds&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dimasmds&layout=compact&langs_count=8&theme=algolia"/>
-</a>
-</p>
+## Fitur
+Pada aplikasi kalkulator ini ada beberapa fitur yang dapat digunakan yaitu:
+- Tampilan layar yang __responsive__ terhadap ukuran media output.
+- Penjumlahan dua bilangan bulat positif
+- Pengurangan dua bilangan bulat positif
+- Perkalian dua bilangan bulat positif
+- Pembagian dua bilangan bulat positif
+- Menghapus angka yang ada dilayar untuk melakukan perhitungan baru
+
+## Cara menjalankan aplikasi kalkulator pada browser
+1. Pastikan sudah mendapatkan __source code__ aplikasi kalkulator ini
+2. Pada web browser yang tersedia, bukalah file `index.html` sehingga muncul tampilan awal aplikasi kalkulator yang siap digunakan.
+
+
