@@ -71,6 +71,12 @@ body {
   cursor: pointer;
 }
 
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
 section {
   min-height: 100vh;
   padding: 10rem 7% 2rem;
@@ -201,13 +207,9 @@ section {
   transform: rotate(calc(360deg / 4 * var(--i)));
   transform-origin: 384px;
   background: var(--bg-color);
-  padding: 13px 0;
+  padding: 13px 0 13px 30px;
 }
 
-
-.home .profession-box .profession:nth-child(1) i {
-  margin-right: 15px;
-}
 
 .home .profession-box .profession:nth-child(2),
 .home .profession-box .profession:nth-child(4) {
