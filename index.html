@@ -5,23 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portofolio </title>
 
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+  
     <!-- Header -->
     <header class="header">
         <a href="#" class="logo">Portofolio.</a>
 
         <nav class="navbar">
-            <a href="#"> Home </a>
+            <a href="#" class="active"> Home </a>
             <a href="#"> About </a>
             <a href="#"> Services </a>
             <a href="#"> Blogs </a>
             <a href="#"> Contact </a>
         </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
     </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3> Hello, I am </h3>
+            <h1> Muhamad Rifki Hilman </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eius et. 
+                Non repellat explicabo laborum id nesciunt voluptatem expedita aspernatur 
+                voluptate tenetur, quasi odit quae vel dignissimos, maiores quia omnis?
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+            <a href="#" class="btn"> Download CV </a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxl-html5' ></i>
+                    <h3> Vidiographer </h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3> Web Developer </h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3> Web Developer </h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3> Web Developer </h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="#" alt="Profile Image">
+        </div>
+    </section>
 
     <!-- Custom Javascript -->
     <script src="./js/script.js"></script>
