@@ -8,9 +8,12 @@ menuIcon.onclick = () => {
 }
 
 // ========== Sticky navbar ========== 
-
 window.onscroll = () => {
     let header = document.querySelector('.header');
     
     header.classList.toggle('sticky', window.scrollY > 90);
 };
+
+// ========== Scroll sections active link ========== 
+let sections = document.querySelector('section');
+let
