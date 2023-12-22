@@ -141,6 +141,7 @@
     .home .profession-container {
         left: 0;
         width: 100%;
+        height: 105%;
     }
 
     .home .profession-container .profession-box {
@@ -155,10 +156,10 @@
         padding: 0 13px;
         left: auto;
         transform-origin: 0;
-    }
+    } 
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-80px, -208px);
+        transform: rotate(-90deg) translate(-78px, -220px);
     }
 
     .home .profession-box .profession:nth-child(1) i {
@@ -170,11 +171,11 @@
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-75px, -370px);
+        transform: rotate(90deg) translate(-68px, -370px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-170px, -290px);
+        transform: rotate(180deg) translate(-153px, -295px);
     }
 
     .home .profession-box .circle {
@@ -186,12 +187,14 @@
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 70rem;
+        top: 85%;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
     }
+
+
 
     .about {
         flex-direction: column-reverse;
