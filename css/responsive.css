@@ -131,7 +131,7 @@
     }
 
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .home-content .social-media a {
@@ -141,7 +141,6 @@
     .home .profession-container {
         left: 0;
         width: 100%;
-        height: 100%;
     }
 
     .home .profession-container .profession-box {
@@ -159,29 +158,29 @@
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-120px, -210px);
+        transform: rotate(-90deg) translate(-80px, -208px);
     }
 
     .home .profession-box .profession:nth-child(1) i {
-        margin-right: 0;
+        margin-right: 0;    
     }
 
     .home .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(0, -335px);
+        transform: rotate(0deg) translate(0, -290px);
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-75px, -370px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-220px, -335px);
+        transform: rotate(180deg) translate(-170px, -290px);
     }
 
     .home .profession-box .circle {
         position: fixed;
-        width: 670px;
-        height: 670px;
+        width: 630px;
+        height: 630px;
         z-index: -1;
     }
 
@@ -192,5 +191,59 @@
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 70vw;
+        margin-top: -3rem;
+    }
+
+
+    .portofolio h2 {
+        margin-bottom: 5rem;
+    }
+
+    .portofolio .portofolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 617px) {
+    .portofolio .portofolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    #darkMode-icon {
+        right: 6rem;
+    }
+
+    .home {
+        padding: 0 3% 30rem;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .about-img img {
+        width: 90vw;
     }
 }
