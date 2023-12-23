@@ -339,6 +339,7 @@ span {
   border-radius: 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .2);
   overflow: hidden;
+  background: white;
 }
 
 .portofolio-box img {
@@ -357,7 +358,7 @@ span {
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
-  color: var(--bg-color);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,7 +379,7 @@ span {
 
 .portofolio-layer p {
   font-size: 1.6rem;
-  margin: .3rem;
+  margin: 3rem;
 }
 
 .portofolio-layer a {
@@ -387,7 +388,7 @@ span {
   align-items: center;
   width: 5rem;
   height: 5rem;
-  background: var(--bg-color);
+  background: white;
   border-radius: 50%;
 }
 
