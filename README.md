@@ -4,6 +4,8 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
 
 ## Structur Folder
 
+```
+
 📦assets
  ┣ 📂images
  ┃ ┣ 📂portofolio
@@ -13,4 +15,4 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
  ┃ ┗ 📜Profile.png
  ┗ 📜CV_Rifki.pdf
 
- 
+ ```
