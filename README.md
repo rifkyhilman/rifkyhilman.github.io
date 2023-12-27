@@ -5,10 +5,14 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
 ## Structur Folder
 
 ```
-<<<<<<< HEAD
+
 📦root
  ┣ 📂assets
  ┃ ┣ 📂images
+ ┃ ┃ ┣ 📂certificate
+ ┃ ┃ ┃ ┣ 📜PBI-CoreIntiative.png
+ ┃ ┃ ┃ ┣ 📜SIB04-Dicoding.png
+ ┃ ┃ ┃ ┗ 📜SIB05-Hactiv8.png
  ┃ ┃ ┣ 📂portofolio
  ┃ ┃ ┃ ┣ 📜Logo-Marimasak.png
  ┃ ┃ ┃ ┣ 📜Shuff-logo03.png
@@ -24,16 +28,3 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
  ┗ 📜README.md
 
 ```
-=======
-
-📦assets
- ┣ 📂images
- ┃ ┣ 📂portofolio
- ┃ ┃ ┣ 📜Logo-Marimasak.png
- ┃ ┃ ┣ 📜Shuff-logo03.png
- ┃ ┃ ┗ 📜Weather-logo.png
- ┃ ┗ 📜Profile.png
- ┗ 📜CV_Rifki.pdf
-
- ```
->>>>>>> 545796216fb47989ac94dca9f301d7ab40cc902b
