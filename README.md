@@ -4,6 +4,7 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
 
 ## Structur Folder
 
+```
 📦root
  ┣ 📂assets
  ┃ ┣ 📂images
@@ -21,3 +22,4 @@ Website ini dibangun menggunakan teknologi HTML, CSS, javascript dan menggunakan
  ┣ 📜index.html
  ┗ 📜README.md
 
+```

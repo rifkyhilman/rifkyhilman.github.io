@@ -397,6 +397,89 @@ span {
   color: #333;
 }
 
+
+/* Cerificate Section  */
+
+.certificate {
+  padding-bottom: 10rem;
+}
+
+.certificate h2 {
+  margin-bottom: 4rem;
+}
+
+.certificate .certificate-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.certificate-container .certificate-box {
+  position: relative;
+  display: flex;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .2);
+  overflow: hidden;
+  background: white;
+}
+
+.certificate-box img {
+  width: 100%;
+  transition: .5s ease;
+}
+
+.certificate-box:hover img {
+  transform: scale(1.1);
+}
+
+.certificate-box .certificate-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.certificate-box:hover .certificate-layer {
+  opacity: 1;
+}
+
+.certificate-layer h4 {
+  font-size: 3rem;
+}
+
+.certificate-layer p {
+  font-size: 1.6rem;
+  margin: 3rem;
+}
+
+.certificate-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: white;
+  border-radius: 50%;
+}
+
+.certificate-layer a i {
+  font-size: 2rem;
+  color: #333;
+}
+
+
 /* Contact Section  */
 
 .contact h2 {
