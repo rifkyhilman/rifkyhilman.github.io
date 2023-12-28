@@ -219,12 +219,25 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .certificate h2 {
+        margin-bottom: 5rem;
+    }
+
+    .certificate .certificate-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (max-width: 617px) {
     .portofolio .portofolio-container {
         grid-template-columns: 1fr;
     }
+
+    .certificate .certificate-container {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media (max-width: 450px) {
