@@ -51,7 +51,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
-ScrollReveal().reveal('.portofolio-box, .contact form, .about-content', { origin: 'bottom'});
+ScrollReveal().reveal('.portofolio-box, .certificate-box, .contact form, .about-content', { origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left'});
-// ScrollReveal().reveal('.about-content', { origin: 'right'});
 
